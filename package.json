@@ -1,0 +1,22 @@
+{
+  "name": "groupe-scolaire-website",
+  "version": "1.0.0",
+  "description": "A website for Groupe Scolaire CHEICK CHERIF SAGALE featuring French language content for 7th to 10th grades.",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server .",
+    "build": "echo 'Build process not defined yet.'"
+  },
+  "keywords": [
+    "education",
+    "french",
+    "language",
+    "school"
+  ],
+  "author": "Mr. Romain",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
