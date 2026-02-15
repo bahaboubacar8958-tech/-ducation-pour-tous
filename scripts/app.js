@@ -3,19 +3,12 @@
 document.addEventListener('DOMContentLoaded', () => {
     console.log('Website is ready!');
 
-    // Example of setting up event listeners for navigation
+    // Navigation links work normally - no need to prevent default behavior
     const navLinks = document.querySelectorAll('nav a');
     navLinks.forEach(link => {
         link.addEventListener('click', (event) => {
-            event.preventDefault();
-            const targetSection = event.target.getAttribute('href');
-            loadSection(targetSection);
+            // Allow normal navigation to other pages
+            console.log(`Navigating to: ${link.getAttribute('href')}`);
         });
     });
-
-    function loadSection(section) {
-        // Logic to load the selected section dynamically
-        console.log(`Loading section: ${section}`);
-        // Here you can implement AJAX calls or other methods to load content
-    }
 });
